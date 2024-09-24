@@ -1,5 +1,6 @@
 {
-  "name": "bigDawgsBot",
+  "type": "module",
+  "name": "big-dawgs-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/voice": "^0.17.0",
-    "libsodium-wrappers": "^0.7.15"
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.0.8"
   }
 }
